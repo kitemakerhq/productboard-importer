@@ -1,0 +1,30 @@
+{
+  "name": "productboard-importer",
+  "version": "1.0.0",
+  "description": "This is a simple script imports feedback and work workt items to Kitemaker based on Notes/Features in ProductBoard",
+  "main": "index.ts",
+  "repository": "https://github.com/kitemakerhq/productboard-importer",
+  "author": "Kevin Simons <kevin@kitemaker.co>",
+  "license": "MIT",
+  "scripts": {
+    "import-data": "ts-node-dev --quiet index.ts"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/node": "^14.14.41",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.2.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "@types/lodash": "^4.14.169",
+    "@urql/core": "^5.0.0",
+    "command-line-args": "^5.1.1",
+    "cross-fetch": "^4.0.0",
+    "lodash": "^4.17.21",
+    "tslib": "^2.2.0"
+  }
+}
