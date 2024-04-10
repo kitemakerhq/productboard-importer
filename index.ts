@@ -128,9 +128,6 @@ async function importData() {
 
     console.log('Work items created:', Object.keys(workItemMap).length);
 
-    if (companies.length !== 0) {
-      process.exit(0);
-    }
     const companyMap: Record<string, string> = {};
 
     for (const company of companies) {
